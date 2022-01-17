@@ -4,10 +4,13 @@
 TARGET_DIR='.'
 cd $TARGET_DIR
 
-# echo $1
+# argument number
 NUM=$1
-# call matlab
+# your matlab path
 matlab='/usr/local/MATLAB/R2019a/bin/matlab'
+
+# call matlab func in a separate tab
+# Rewrite the target function name from func1.
 
 for i in `seq 1 $NUM`
 do
