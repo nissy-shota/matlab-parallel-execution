@@ -1,4 +1,4 @@
-# parallel-shell-4matlab
+# matlab-parallel-execution
 
 ## Overview
 
