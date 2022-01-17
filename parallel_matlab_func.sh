@@ -9,6 +9,10 @@ if [ $# != 1 ]; then
 else
     echo $1'tasks running'
 fi
+
+# function name
+MATLAB_FUNC_NAME='func1'
+
 # target funciton directory
 TARGET_DIR='.'
 cd $TARGET_DIR
@@ -23,5 +27,5 @@ matlab='/usr/local/MATLAB/R2019a/bin/matlab'
 
 for i in `seq 1 $NUM`
 do
-    gnome-terminal --tab -t "Tab $i" -- $matlab -singleCompThread -nojvm -r 'func1('$i')'
+    gnome-terminal --tab -t "Tab $i" -- $matlab -singleCompThread -nojvm -r $MATLAB_FUNC_NAME'('$i')'
 done
