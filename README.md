@@ -27,4 +27,4 @@ bash parallel_matlab_func.sh 5
 ## Feature Work
 
 - [ ] Add an argument or flag function to terminate the tab.
-- [ ] Added the ability to accept function names as arguments.
+- [ ] Add the ability to accept function names as arguments.
